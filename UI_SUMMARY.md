@@ -1,0 +1,111 @@
+# UI Overview (auto-generated)
+
+Generated: 2025-09-14T22:41:45.776Z
+
+## Routes (app/)
+- `/` ← `app/+html.tsx` — **Root** [html]
+- `/` ← `app/+not-found.tsx` — **NotFoundScreen** [not-found, tailwind]
+  - features: nav:1
+  - tailwind sample: `flex-1 | text-secondary-200 | text-primary-500`
+- `/` ← `app/_layout.tsx` — **RootLayout** [layout]
+- `/bulletin` ← `app/bulletin.tsx` — **Bulletin** [tailwind]
+  - features: —
+  - tailwind sample: `flex-1 bg-white | px-6 pt-12 pb-4 border-b border-gray-200 | text-2xl font-bold | text-gray-500 mt-1 | px-6 py-4`
+- `/coach-focused-dashboard` ← `app/coach-focused-dashboard.tsx` — **CoachFocusedDashboard** [tailwind, lucide-icons]
+  - features: images:1
+  - tailwind sample: `flex-1 bg-gray-50 | bg-white p-4 shadow-sm | flex-row items-center justify-between | flex-row items-center | p-2 -ml-2 | text-xl font-bold text-gray-900 ml-2`
+- `/events/[id]` ← `app/events/[id].tsx` — **EventDetail** [tailwind]
+  - features: —
+  - tailwind sample: `flex-1 items-center justify-center | text-gray-500 | flex-1 bg-white px-6 py-6 | text-2xl font-bold | text-gray-600 mt-1 | mt-6 rounded-2xl border border-gray-200 p-4`
+- `/events` ← `app/events/index.tsx` — **Events** [tailwind]
+  - features: nav:1
+  - tailwind sample: `flex-1 bg-white | px-6 pt-12 pb-4 border-b border-gray-200 | text-2xl font-bold | text-gray-500 mt-1 | px-6 py-4`
+- `/for-coaches` ← `app/for-coaches.tsx` — **ForCoachesScreen** [tailwind, lucide-icons]
+  - features: images:1
+  - tailwind sample: `flex-1 bg-gray-50 | bg-white p-4 shadow-sm | flex-row items-center justify-between | text-2xl font-bold text-gray-900 | text-gray-600 | flex-row items-center`
+- `/for-parents` ← `app/for-parents.tsx` — **ForParentsScreen** [tailwind, lucide-icons]
+  - features: images:2
+  - tailwind sample: `flex-1 bg-gray-50 | bg-white p-4 shadow-sm | flex-row items-center justify-between | text-2xl font-bold text-gray-900 | text-gray-600 | flex-row items-center`
+- `/` ← `app/index.tsx` — **CoachConnectLanding** [tailwind, lucide-icons]
+  - features: images:1
+  - tailwind sample: `flex-1 bg-gray-50 | bg-white p-4 shadow-sm | flex-row items-center justify-between | text-2xl font-bold text-gray-900 | text-gray-600 | flex-row items-center`
+- `/localgrassroots` ← `app/localgrassroots.tsx` — **LocalGrassroots** [tailwind, lucide-icons]
+  - features: images:1
+  - tailwind sample: `flex-1 bg-gray-50 | bg-white p-4 shadow-sm | text-2xl font-bold text-gray-900 | text-gray-600 mt-1 | flex-1 p-4 | mb-6`
+- `/login` ← `app/login.tsx` — **LoginScreen** [tailwind, lucide-icons]
+  - features: images:1
+  - tailwind sample: `flex-1 bg-gray-50 | flex-1 px-6 py-10 | mb-10 | text-3xl font-bold text-gray-800 text-center | text-gray-600 text-center mt-2 | mb-8`
+- `/modal` ← `app/modal.tsx` — **ModalScreen** [modal, tailwind]
+  - features: —
+  - tailwind sample: `flex flex-1 items-center justify-center | text-xl font-bold | my-[30px] h-1 w-[80%]`
+- `/pitch-layout` ← `app/pitch-layout.tsx` — **PitchLayoutScreen** [tailwind, lucide-icons]
+  - features: —
+  - tailwind sample: `flex-1 bg-gray-50 | bg-blue-600 p-4 shadow-sm | flex-row items-center | mr-3 | text-xl font-bold text-white | text-blue-100`
+- `/settings` ← `app/settings.tsx` — **Settings** [tailwind]
+  - features: —
+  - tailwind sample: `flex-1 bg-white px-6 py-12 | text-2xl font-bold | mt-6 flex-row items-center justify-between rounded-2xl border border-gray-200 p-4 | font-semibold | text-gray-600`
+- `/tabs` ← `app/tabs/(tabs)/_layout.tsx` — **TabLayout** [layout]
+- `/tabs` ← `app/tabs/(tabs)/index.tsx` — **Home** [tailwind]
+  - features: —
+  - tailwind sample: `flex-1 | font-bold text-2xl | my-[30px] w-[80%] | p-4`
+- `/tabs/tab1` ← `app/tabs/(tabs)/tab1.tsx` — **Tab2** [tailwind]
+  - features: —
+  - tailwind sample: `flex-1 | font-bold text-2xl | my-[30px] w-[80%] | p-4`
+- `/tabs/tab2` ← `app/tabs/(tabs)/tab2.tsx` — **Tab2** [tailwind]
+  - features: —
+  - tailwind sample: `flex-1 | font-bold text-2xl | my-[30px] w-[80%] | p-4`
+- `/tabs` ← `app/tabs/_layout.tsx` — **AppLayout** [layout]
+- `/teams` ← `app/teams.tsx` — **Teams** [tailwind]
+  - features: —
+  - tailwind sample: `flex-1 p-6 bg-white | text-xl font-semibold | mt-2 text-gray-600`
+- `/teams/[id]` ← `app/teams/[id].tsx` — **TeamDetail** [tailwind]
+  - features: —
+  - tailwind sample: `flex-1 items-center justify-center | text-gray-500 | flex-1 bg-white px-6 py-6 | text-2xl font-bold | text-gray-600 mt-1 | mt-6 rounded-2xl border border-gray-200 p-4`
+- `/teams` ← `app/teams/index.tsx` — **Teams** [tailwind]
+  - features: nav:1
+  - tailwind sample: `flex-1 bg-white | px-6 pt-12 pb-4 border-b border-gray-200 | text-2xl font-bold | text-gray-500 mt-1 | px-6 py-4`
+- `/training-constructor` ← `app/training-constructor.tsx` — **TrainingConstructorScreen** [tailwind, lucide-icons]
+  - features: images:1
+  - tailwind sample: `flex-1 bg-gray-50 | bg-blue-600 p-4 shadow-sm | flex-row items-center justify-between | flex-row items-center | mr-3 | text-xl font-bold text-white`
+- `/year-groups` ← `app/year-groups.tsx` — **YearGroupsScreen** [tailwind, lucide-icons]
+  - features: —
+  - tailwind sample: `flex-1 bg-gray-50 | bg-white p-4 shadow-sm | flex-row items-center justify-between | text-2xl font-bold text-gray-900 | text-gray-600 | flex-1 p-4`
+
+## Shared Components (components/)
+- **EditScreenInfo.tsx/** (1 files)
+  - `EditScreenInfo.tsx`
+- **EventCard.tsx/** (1 files)
+  - `EventCard.tsx`
+- **ExternalLink.tsx/** (1 files)
+  - `ExternalLink.tsx`
+- **PostCard.tsx/** (1 files)
+  - `PostCard.tsx`
+- **Screen.tsx/** (1 files)
+  - `Screen.tsx`
+- **StyledText.tsx/** (1 files)
+  - `StyledText.tsx`
+- **TeamCard.tsx/** (1 files)
+  - `TeamCard.tsx`
+- **Themed.tsx/** (1 files)
+  - `Themed.tsx`
+- **ui/** (79 files)
+  - `ui/accordion/index.tsx`
+  - `ui/actionsheet/index.tsx`
+  - `ui/alert-dialog/index.tsx`
+  - `ui/alert/index.tsx`
+  - `ui/avatar/index.tsx`
+  - `ui/badge/index.tsx`
+  - `ui/box/index.tsx`
+  - `ui/box/index.web.tsx`
+  - … +71 more
+- **useClientOnlyValue.ts/** (1 files)
+  - `useClientOnlyValue.ts`
+- **useClientOnlyValue.web.ts/** (1 files)
+  - `useClientOnlyValue.web.ts`
+- **useColorScheme.ts/** (1 files)
+  - `useColorScheme.ts`
+- **useColorScheme.web.ts/** (1 files)
+  - `useColorScheme.web.ts`
+
+## Asset & Icon Signals
+- lucide-react-native icons
