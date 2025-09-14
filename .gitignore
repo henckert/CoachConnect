@@ -1,0 +1,21 @@
+# Node / Expo
+node_modules/
+.expo/
+.expo-shared/
+.cache/
+dist/
+web-build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional build outputs
+.next/

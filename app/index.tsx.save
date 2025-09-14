@@ -1,0 +1,16 @@
+.import { View, Text, Pressable } from "react-native";
+import { Link } from "expo-router";
+
+export default function Home() {
+  return (
+    <View className="flex-1 items-center justify-center bg-rose-200">
+      <Text className="text-2xl font-bold">CoachConnect Pro</Text>
+      <Text className="mt-2 text-gray-500">Expo + Router + NativeWind + TS</Text>
+      <Link href="/teams" asChild>
+        <Pressable className="mt-6 rounded-xl px-5 py-3 bg-black">
+          <Text className="text-white font-medium">Go to Teams</Text>
+        </Pressable>
+      </Link>
+    </View>
+  );
+}
